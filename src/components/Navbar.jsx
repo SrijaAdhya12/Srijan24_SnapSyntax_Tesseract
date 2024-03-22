@@ -1,14 +1,23 @@
-import { faBars, faHamburger } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 const Navbar = () => {
 	return (
-		<nav className="bg-gray-600 flex h-10 items-center text-white justify-end p-4">
-			<div className="flex gap-5 justify-between w-full">
-				<a href="/">LOGO</a>
-				<div className="flex gap-3 items-center">
-					<button className="cursor-pointer">Sign Up</button>
-					<FontAwesomeIcon icon={faBars} className="cursor-pointer" />
+		<nav className="flex items-center justify-between flex-wrap 0 p-6 max-w-screen-xl mx-auto">
+			<div className="flex gap-10  uppercase">
+				<div className="flex items-center flex-shrink-0">
+					<span className="font-semibold text-xl tracking-tight">lorem epsem</span>
+				</div>
+				<div className="flex items-center flex-shrink-0 mr-6">
+					<span className="font-semibold text-xl tracking-tight">About</span>
+				</div>
+				<div className="flex items-center flex-shrink-0 mr-6">
+					<span className="font-semibold text-xl tracking-tight">work</span>
+				</div>
+			</div>
+			<div className="flex gap-10">
+				<div className="flex items-center flex-shrink-0 uppercase">
+					<span className="font-semibold text-xl tracking-tight">LET's CONNECT</span>
+				</div>
+				<div className="flex items-center flex-shrink-0 mr-6">
+					<span className="font-semibold text-xl tracking-tight">info@jamelaeBrown.com</span>
 				</div>
 			</div>
 		</nav>
