@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import AboutUs from '../Sections/AboutUs'
 import Work from '../Sections/Work'
 import Hero from '../Sections/Hero'
