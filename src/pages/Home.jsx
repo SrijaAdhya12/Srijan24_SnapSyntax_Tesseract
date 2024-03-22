@@ -1,6 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import '../styles/Home.css'
+import AboutUs from '../Sections/AboutUs'
+import Work from '../Sections/Work'
 
 const Home = () => {
 	return (
@@ -10,6 +12,8 @@ const Home = () => {
 				<FontAwesomeIcon icon={faHouse} />
 				<button className="bg-green-500 font-body2">Hello</button>
 			</div>
+			<AboutUs />
+			<Work />
 		</div>
 	)
 }
